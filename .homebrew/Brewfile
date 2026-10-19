@@ -10,6 +10,8 @@ brew "rust"
 brew "starship"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Keep your computer awake while AI coding agents are working
+cask "adrafinil"
 # Menu bar calendar
 cask "calendr"
 # Terminal-based AI coding assistant
