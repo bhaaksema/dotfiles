@@ -1,7 +1,7 @@
 [push]
 	autoSetupRemote = true
-[user]
-	email = 17254355+bhaaksema@users.noreply.github.com
+[includeIf "hasconfig:remote.*.url:**/*github.com*/**"]
+	path = ~/.config/git/github
 [includeIf "hasconfig:remote.*.url:**/*gitlab.com*/**"]
 	path = ~/.config/git/gitlab
 [includeIf "hasconfig:remote.*.url:**/*gitlab.testbox.cloud*/**"]
