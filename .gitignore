@@ -1,5 +1,4 @@
 *
-!.gitconfig
 !.gitignore
 
 !.claude/
@@ -9,6 +8,8 @@
 !.config/
 !.config/fish/
 !.config/fish/config.fish
+!.config/git/
+!.config/git/*
 !.config/ghostty/
 !.config/ghostty/config.ghostty
 !.config/zed/
