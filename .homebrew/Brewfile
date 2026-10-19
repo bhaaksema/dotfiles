@@ -1,3 +1,22 @@
+profile_file = File.expand_path("~/.local/state/homebrew/profile")
+unless File.exist?(profile_file)
+  raise "Run in an interactive terminal to set the machine profile." unless $stdin.tty?
+  FileUtils.mkdir_p(File.dirname(profile_file))
+  $stderr.print "Work machine? [y/N] "
+  File.write(profile_file, $stdin.gets.to_s.strip.casecmp?("y") ? "work" : "personal")
+end
+
+if File.read(profile_file).strip == "work"
+  # Open-source GitLab command-line tool
+  brew "glab"
+  # App to build and share containerised applications and microservices
+  cask "docker-desktop"
+  # Team communication and collaboration software
+  cask "slack"
+  # Remote access and connectivity software focused on security
+  cask "teamviewer"
+end
+
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # User-friendly command-line shell for UNIX-like operating systems
