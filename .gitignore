@@ -13,3 +13,7 @@
 !.config/ghostty/config.ghostty
 !.config/zed/
 !.config/zed/settings.json
+
+!.homebrew/
+!.homebrew/Brewfile
+!.homebrew/Brewfile.work

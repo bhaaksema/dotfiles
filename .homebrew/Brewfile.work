@@ -1,0 +1,10 @@
+# Include shared Brewfile
+instance_eval(File.read(File.join(__dir__, "Brewfile")))
+# Open-source GitLab command-line tool
+brew "glab"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Team communication and collaboration software
+cask "slack"
+# Remote access and connectivity software focused on security
+cask "teamviewer"

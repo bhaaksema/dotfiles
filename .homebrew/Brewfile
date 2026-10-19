@@ -1,0 +1,32 @@
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# GitHub command-line tool
+brew "gh"
+# Safe, concurrent, practical language
+brew "rust"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Menu bar calendar
+cask "calendr"
+# Terminal-based AI coding assistant
+cask "claude-code@latest"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Tool to reverse the direction of scrolling
+cask "scroll-reverser"
+# Instant messaging application focusing on security
+cask "signal"
+# Web browser
+cask "thebrowsercompany-dia"
+# Native desktop client for WhatsApp
+cask "whatsapp"
+# Multiplayer code editor
+cask "zed"
