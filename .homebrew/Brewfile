@@ -7,7 +7,14 @@ unless File.exist?(profile_file)
   File.write(profile_file, answer.casecmp?("y") ? "work" : "personal")
 end
 
-if File.read(profile_file).strip == "work"
+if File.read(profile_file).strip == "personal"
+  # iOS Sideloading Companion
+  cask "iloader"
+  # Imaging utility to install operating systems to a microSD card
+  cask "raspberry-pi-imager"
+  # Music streaming service
+  cask "spotify"
+else
   # Open-source GitLab command-line tool
   brew "glab"
   # App to build and share containerised applications and microservices
