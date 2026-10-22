@@ -55,6 +55,8 @@ cask "rectangle"
 cask "scroll-reverser"
 # Instant messaging application focusing on security
 cask "signal"
+# Mesh VPN based on WireGuard
+cask "tailscale-app"
 # Web browser
 cask "thebrowsercompany-dia"
 # Multiplayer code editor
