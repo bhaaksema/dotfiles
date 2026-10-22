@@ -3,7 +3,7 @@ if status is-interactive
     starship init fish | source
 
     if test "$TERM_PROGRAM" = ghostty
-        set -gx STARSHIP_CONFIG $TMPDIR/starship.toml
+        set -gx STARSHIP_CONFIG /tmp/starship.toml
         starship preset gruvbox-rainbow -o $STARSHIP_CONFIG --force
         fastfetch
     end
