@@ -1,5 +1,11 @@
+[fetch]
+	prune = true
+[pull]
+	rebase = true
 [push]
 	autoSetupRemote = true
+[rebase]
+	autoStash = true
 [includeIf "hasconfig:remote.*.url:**/*github.com*/**"]
 	path = ~/.config/git/github
 [includeIf "hasconfig:remote.*.url:**/*gitlab.com*/**"]
