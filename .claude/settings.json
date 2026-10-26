@@ -4,6 +4,9 @@
     "pr": "",
     "sessionUrl": false
   },
+  "env": {
+    "CLAUDE_CODE_SHELL": "/bin/bash"
+  },
   "hooks": {
     "Notification": [
       {
