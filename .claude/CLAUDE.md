@@ -3,9 +3,9 @@
 - **Comments:** Few and terse, only for non-obvious reasoning. Never let instructions or task context seep into them.
 
 ## Git
-- **Format:** Scoped commits `<scope>: <description>`, a single line, where scope is one subsystem/area the commit touches.
-- **Approval:** Always get explicit approval for the commit message before commit or push.
+- **Commits:** Scoped format `<scope>: <description>`, a single line, where scope is one subsystem or area the commit touches.
 - **Worktrees:** Work in a worktree only when another session is using the checkout, and remove it once its branch is pushed.
 
 ## Claims
-- **Verification:** Every statement is checked against current documentation or the actual environment before it is made.
+- **Documentation:** Every statement is checked against current documentation before it is made, citing the source as an inline link where relevant.
+- **Experiments:** Statements documentation cannot settle are validated in a throwaway experiment before they are made.
