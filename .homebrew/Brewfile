@@ -17,6 +17,8 @@ if File.read(profile_file).strip == "personal"
 else
   # Open-source GitLab command-line tool
   brew "glab"
+  # Generic machine emulator and virtualizer
+  brew "qemu"
   # App to build and share containerised applications and microservices
   cask "docker-desktop"
   # Team communication and collaboration software
