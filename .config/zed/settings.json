@@ -12,13 +12,8 @@
       "program": "fish"
     }
   },
-  "agent_servers": {
-    "claude-acp": {
-      "default_config_options": {
-        "mode": "auto"
-      },
-      "type": "registry"
-    }
+  "agent": {
+    "terminal_init_command": "claude"
   },
   "telemetry": {
     "diagnostics": false,
