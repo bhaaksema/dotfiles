@@ -1,11 +1,11 @@
 {
+  "env": {
+    "CLAUDE_CODE_SHELL": "/bin/bash"
+  },
   "attribution": {
     "commit": "",
     "pr": "",
     "sessionUrl": false
-  },
-  "env": {
-    "CLAUDE_CODE_SHELL": "/bin/bash"
   },
   "hooks": {
     "Notification": [
@@ -83,6 +83,7 @@
   },
   "outputStyle": "Concise",
   "feedbackDrafts": "off",
+  "timeFormat": "24-hour",
   "autoMemoryEnabled": false,
   "theme": "auto"
 }
