@@ -49,6 +49,8 @@ cask "calendr"
 cask "claude-code@latest"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Desktop app for terminals and coding agents
+cask "herdr-app"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Move and resize windows using keyboard shortcuts or snap areas
