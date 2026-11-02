@@ -81,6 +81,10 @@
       }
     ]
   },
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline.sh"
+  },
   "outputStyle": "Concise",
   "feedbackDrafts": "off",
   "timeFormat": "24-hour",
