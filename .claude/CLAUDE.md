@@ -7,5 +7,7 @@
 - **Worktrees:** Work in a worktree only when another session is using the checkout, and remove it once its branch is pushed.
 
 ## Claims
-- **Documentation:** Every statement is checked against current documentation before it is made, citing the source as an inline link where relevant.
+- **Documentation:** Every statement is checked against current documentation before it is made.
 - **Experiments:** Statements documentation cannot settle are validated in a throwaway experiment before they are made.
+- **Links:** Any referenced source, artifact or work item is cited as an inline link where one exists.
+- **Promises:** Future behavior is never promised without a way to guarantee it.
