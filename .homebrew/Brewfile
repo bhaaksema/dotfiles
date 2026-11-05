@@ -17,11 +17,12 @@ else
   cask "docker-desktop"
   cask "slack"
   cask "teamviewer"
-  cask "whatsapp"
+  mas "WhatsApp", id: 310633997
 end
 
 brew "fish"
 brew "gh"
+brew "mas"
 brew "node"
 brew "rust"
 brew "starship"
