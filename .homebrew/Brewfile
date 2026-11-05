@@ -13,16 +13,16 @@ if File.read(profile_file).strip == "personal"
   cask "spotify"
 else
   brew "glab"
+  brew "mas"
   brew "qemu"
   cask "docker-desktop"
-  cask "slack"
   cask "teamviewer"
+  mas "Slack", id: 803453959
   mas "WhatsApp", id: 310633997
 end
 
 brew "fish"
 brew "gh"
-brew "mas"
 brew "node"
 brew "rust"
 brew "starship"
