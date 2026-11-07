@@ -4,10 +4,10 @@
 
 ## Git
 - **Commits:** Scoped format `<scope>: <description>`, a single line, where scope is one subsystem or area the commit touches.
-- **Worktrees:** Work in a worktree only when another session is using the checkout, and remove it once its branch is pushed.
+- **Pull requests:** Unscoped title in natural language.
 
 ## Claims
 - **Documentation:** Every statement is checked against current documentation before it is made.
-- **Experiments:** Statements documentation cannot settle are validated in a throwaway experiment before they are made.
+- **Verification:** Statements documentation cannot settle are verified by inspection or a throwaway experiment.
 - **Links:** Any referenced source, artifact or work item is cited as an inline link where one exists.
 - **Promises:** Future behavior is never promised without a way to guarantee it.
