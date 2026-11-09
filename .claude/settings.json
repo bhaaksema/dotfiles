@@ -11,6 +11,9 @@
     "type": "command",
     "command": "bash ~/.claude/statusline.sh"
   },
+  "enabledPlugins": {
+    "caveman@caveman": true
+  },
   "extraKnownMarketplaces": {
     "caveman": {
       "source": {
@@ -24,7 +27,5 @@
   "timeFormat": "24-hour",
   "autoMemoryEnabled": false,
   "theme": "auto",
-  "enabledPlugins": {
-    "caveman@caveman": true
-  }
+  "agentPushNotifEnabled": false
 }
