@@ -8,6 +8,7 @@ unless File.exist?(profile_file)
 end
 
 if File.read(profile_file).strip == "personal"
+  cask "obsidian"
   cask "raspberry-pi-imager"
   cask "spotify"
 else
@@ -30,7 +31,6 @@ cask "calendr"
 cask "claude"
 cask "claude-code"
 cask "font-jetbrains-mono-nerd-font"
-cask "obsidian"
 cask "rectangle"
 cask "scroll-reverser"
 cask "signal"
