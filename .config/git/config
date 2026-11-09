@@ -12,3 +12,6 @@
 	path = ~/.config/git/gitlab
 [includeIf "hasconfig:remote.*.url:**/*gitlab.testbox.cloud*/**"]
 	path = ~/.config/git/testbox
+[user]
+	name = Bas Haaksema
+	useConfigOnly = true
