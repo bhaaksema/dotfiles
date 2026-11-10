@@ -4,7 +4,7 @@
 
 ## Git
 - **Commits:** Scoped format `<scope>: <description>`, a single line, where scope is one subsystem or area the commit touches.
-- **Pull requests:** Unscoped title in natural language.
+- **Titles:** Unscoped and in natural language for everything except commits.
 
 ## Claims
 - **Documentation:** Every statement is checked against current documentation before it is made.
