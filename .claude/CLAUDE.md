@@ -6,4 +6,3 @@
 - **Documentation:** Every statement is checked against current documentation before it is made.
 - **Verification:** Statements documentation cannot settle are verified by inspection or a throwaway experiment.
 - **Links:** Any referenced source, artifact or work item is cited as an inline link where one exists.
-- **Promises:** Future behavior is never promised without a way to guarantee it.
