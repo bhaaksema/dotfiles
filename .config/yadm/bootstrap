@@ -1,2 +1,5 @@
-#!/bin/sh
-brew bundle --global
+#!/bin/bash
+select class in Home Work; do
+  yadm config local.class "$class"
+  exec brew bundle --global
+done

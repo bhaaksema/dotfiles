@@ -1,0 +1,31 @@
+{% if yadm.class == "Home" %}
+cask "obsidian"
+cask "raspberry-pi-imager"
+cask "spotify"
+{% endif %}
+{% if yadm.class == "Work" %}
+brew "glab"
+brew "mas"
+brew "qemu"
+cask "docker-desktop"
+cask "teamviewer"
+mas "Slack", id: 803453959
+mas "WhatsApp", id: 310633997
+{% endif %}
+brew "fish"
+brew "gh"
+brew "node"
+brew "rust"
+brew "starship"
+brew "uv"
+brew "yadm"
+cask "calendr"
+cask "claude"
+cask "claude-code"
+cask "font-jetbrains-mono-nerd-font"
+cask "rectangle"
+cask "scroll-reverser"
+cask "signal"
+cask "tailscale-app"
+cask "thebrowsercompany-dia"
+cask "zed"
