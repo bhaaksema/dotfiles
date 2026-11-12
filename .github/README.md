@@ -1,16 +1,13 @@
 # dotfiles
 
-Check out the bare repository into the home directory:
+Install [yadm](https://yadm.io) using Homebrew:
 
 ```sh
-git init --bare ~/.dotfiles
-alias dot='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
-dot remote add -f origin https://github.com/bhaaksema/dotfiles.git
-dot checkout main
+brew install yadm
 ```
 
-Install the packages declared in [Brewfile](/.homebrew/Brewfile):
+Clone this repo using yadm:
 
 ```sh
-brew bundle -g
+yadm clone https://github.com/bhaaksema/dotfiles.git
 ```
