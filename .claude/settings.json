@@ -20,8 +20,6 @@
   },
   "outputStyle": "Concise",
   "feedbackDrafts": "off",
-  "timeFormat": "24-hour",
   "autoMemoryEnabled": false,
-  "theme": "auto",
   "agentPushNotifEnabled": false
 }
