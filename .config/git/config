@@ -1,3 +1,17 @@
+[user]
+	name = Bas Haaksema
+	useConfigOnly = true
+[includeIf "hasconfig:remote.*.url:**/*github.com*/**"]
+	path = ~/.config/git/github
+[includeIf "hasconfig:remote.*.url:**/*gitlab.com*/**"]
+	path = ~/.config/git/gitlab
+[includeIf "hasconfig:remote.*.url:**/*gitlab.testbox.cloud*/**"]
+	path = ~/.config/git/testbox
+[credential]
+	helper =
+	helper = !gh auth git-credential
+	helper = !glab auth git-credential
+	helper = osxkeychain
 [fetch]
 	prune = true
 [pull]
@@ -6,12 +20,3 @@
 	autoSetupRemote = true
 [rebase]
 	autoStash = true
-[includeIf "hasconfig:remote.*.url:**/*github.com*/**"]
-	path = ~/.config/git/github
-[includeIf "hasconfig:remote.*.url:**/*gitlab.com*/**"]
-	path = ~/.config/git/gitlab
-[includeIf "hasconfig:remote.*.url:**/*gitlab.testbox.cloud*/**"]
-	path = ~/.config/git/testbox
-[user]
-	name = Bas Haaksema
-	useConfigOnly = true
