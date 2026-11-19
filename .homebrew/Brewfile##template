@@ -4,7 +4,6 @@ cask "raspberry-pi-imager"
 cask "spotify"
 {% endif %}
 {% if yadm.class == "Work" %}
-brew "glab"
 brew "mas"
 brew "qemu"
 cask "docker-desktop"
@@ -14,6 +13,7 @@ mas "WhatsApp", id: 310633997
 {% endif %}
 brew "fish"
 brew "gh"
+brew "glab"
 brew "node"
 brew "rust"
 brew "starship"
