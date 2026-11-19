@@ -11,7 +11,6 @@
 	helper =
 	helper = !gh auth git-credential
 	helper = !glab auth git-credential
-	helper = osxkeychain
 [fetch]
 	prune = true
 [pull]
