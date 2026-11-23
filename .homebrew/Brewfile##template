@@ -6,6 +6,7 @@ cask "spotify"
 {% if yadm.class == "Work" %}
 brew "mas"
 brew "qemu"
+cask "1password"
 cask "docker-desktop"
 cask "teamviewer"
 mas "Slack", id: 803453959
