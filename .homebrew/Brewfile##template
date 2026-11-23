@@ -11,6 +11,7 @@ cask "docker-desktop"
 cask "teamviewer"
 mas "Slack", id: 803453959
 mas "WhatsApp", id: 310633997
+mas "Xcode", id: 497799835
 {% endif %}
 brew "fish"
 brew "gh"
